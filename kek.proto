@@ -1,0 +1,68 @@
+message Понедельник {
+	message Расписание {
+		message Пара2(нечет) {
+			required string Корпус=1;
+			required string Предмет=2;
+			required string Неделя=3;
+			required string Время=4;
+			required uint32 Ауд=5;
+			required string Преподаватель=6;
+		}
+		message Пара4(нечет) {
+			required string Корпус=1;
+			required string Предмет=2;
+			required string Неделя=3;
+			required string Время=4;
+			required string Ауд=5;
+			required string Преподаватель=6;
+		}
+		message Пара3(чет) {
+			required string Корпус=1;
+			required string Предмет=2;
+			required string Неделя=3;
+			required string Время=4;
+			required uint32 Ауд=5;
+			required string Преподаватель=6;
+		}
+		message Пара4(чет) {
+			required string Корпус=1;
+			required string Предмет=2;
+			required string Неделя=3;
+			required string Время=4;
+			required uint32 Ауд=5;
+			required string Преподаватель=6;
+		}
+		message Пара2(чет) {
+			required string Корпус=1;
+			required string Предмет=2;
+			required string Неделя=3;
+			required string Время=4;
+			required uint32 Ауд=5;
+			required string Преподаватель=6;
+		}
+		message Пара1(нечет) {
+			required string Корпус=1;
+			required string Предмет=2;
+			required string Неделя=3;
+			required string Время=4;
+			required uint32 Ауд=5;
+			required string Преподаватель=6;
+		}
+		message Пара3(нечет) {
+			required string Корпус=1;
+			required string Предмет=2;
+			required string Неделя=3;
+			required string Время=4;
+			required string Ауд=5;
+			required string Преподаватель=6;
+		}
+		message Пара1(чет) {
+			required string Корпус=1;
+			required string Предмет=2;
+			required string Неделя=3;
+			required string Время=4;
+			required uint32 Ауд=5;
+			required string Преподаватель=6;
+		}
+		}
+	}
